@@ -1,5 +1,5 @@
 <div class="wrap">
-    <h2>编辑条目</h2>
+    <h2>编辑条目</h2> 
     <?php $subject_id = $_GET['subject_id'];
     global $wpdb;
     $subject = $subject_id ? $wpdb->get_row("SELECT * FROM $wpdb->douban_movies WHERE id = '{$subject_id}'") : "";

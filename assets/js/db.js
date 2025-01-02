@@ -11,7 +11,7 @@ class WP_DOUBAN {
         this.subjects = [];
         this._create();
     }
-
+ 
     on(t, e, n) {
         var a = document.querySelectorAll(e);
         a.forEach((item) => {

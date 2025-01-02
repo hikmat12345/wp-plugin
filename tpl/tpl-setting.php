@@ -1,5 +1,5 @@
 <div class="wrap">
-    <h2>插件设置</h2>
+    <h2>插件设置</h2> 
     <form method="post" action="options.php">
         <?php
         settings_fields('db_setting_group');

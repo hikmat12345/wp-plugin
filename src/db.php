@@ -1,5 +1,5 @@
 <?php
-
+ 
 class db_sync extends WPD_Douban
 {
 
