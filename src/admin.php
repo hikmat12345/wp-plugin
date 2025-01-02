@@ -1,5 +1,5 @@
 <?php
- 
+
 class WPD_ADMIN extends WPD_Douban
 {
     public function __construct()
